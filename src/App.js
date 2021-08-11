@@ -3,11 +3,11 @@ import Header from "./components/Header/Header";
 import './App.css'
 import FeaturedPost from "./components/Featured/FeaturedPost";
 import PostCard from "./components/PostCard/PostCard";
-import { featuredPosts, sidebar } from "./data/data";
+import {featuredPosts, sidebar} from './data/data'
 import Sidebar from "./components/Sidebar/Sidebar";
-import Main from "./Main/Main";
 import { makeStyles } from "@material-ui/core";
 import Footer from "./components/Footer/Footer";
+import Main from "./components/Main/Main";
 
 const useStyles = makeStyles((theme) => ({
   mainGrid: {

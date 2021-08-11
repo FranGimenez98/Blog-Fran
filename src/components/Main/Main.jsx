@@ -1,8 +1,7 @@
 import { Typography, Grid, Divider } from '@material-ui/core'
 import Markdown from 'markdown-to-jsx'
 import React from 'react'
-import { posts } from '../data/data'
-
+import { posts } from '../../data/data'
 const Main = ({title}) => {
     return (
         <Grid item xd={12} md={8}>
